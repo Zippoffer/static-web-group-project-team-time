@@ -1,0 +1,11 @@
+body {		background:#304980;}
+
+.introRope {background:#F7F6F6;
+			border:1px solid #F7F6F6;
+			border-radius: 15px;
+			margin-left:100px;
+			margin-right:300px;
+			margin-bottom:100px;
+			padding-bottom:50px;}
+.foot {background:#F7F6F6;
+		padding-bottom:20px;}
