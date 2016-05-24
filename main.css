@@ -1,0 +1,24 @@
+.navBar li {list-style-type:none;
+	display:inline-block;
+	font-size:36px;
+	padding:15px;
+	margin:15px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background:black;
+	min-width:200px;
+	text-align:center;
+	box-shadow: 0px 8px 16px 0px;
+	}
+
+.navBar a{text-decoration:none;
+	color:white;}
+.navBar a:hover {color:green;}
+.dropdown-content{	display:none;
+			position:absolute;}
+.dropdown {	position:relative;
+		display:inline-block;
+		}
+		
+.dropdown:hover .dropdown-content{
+	display:block;
