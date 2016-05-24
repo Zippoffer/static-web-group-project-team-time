@@ -22,3 +22,42 @@ body {		background:#304980;}
 }
 .foot {background:#F7F6F6;
 		padding-bottom:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {background:#FFF3D7;
+		padding-top:10px;}
+header a {	text-decoration:none;
+			color:#FFE4A5;}
+header h1{ color:#304980; }
+.navBar li {list-style-type:none;
+		display: inline-block;
+		margin-right:2%;
+		float:right;
+		background:#B29550;
+	}
+nav 			{width:100%;
+				background:#B29550;
+				padding:20px;}
+
