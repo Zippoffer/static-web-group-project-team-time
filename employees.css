@@ -1,0 +1,179 @@
+/******************************
+GENERAL
+******************************/
+
+body {
+	font-family: helvetica;
+	background:#304980;
+}
+
+
+/******************************
+HEADING
+******************************/
+a span {
+	float: left;
+	font-size: 23px;
+}
+
+header {
+	background:#FFF3D7;
+	padding-top:10px;
+}
+
+header a {	
+	text-decoration: none;
+	color: #4f4f4f;
+}
+
+header h1{ 
+	color: #304980;
+	font-size: 40px; 
+}
+
+nav {
+	background: #B29550;
+	font-size: 20px;
+	padding: 25px;
+}
+
+.navBar li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 2%;
+	float: right;
+	background: #B29550;
+}
+
+li a:hover {
+	color: #304980;
+	font-weight: bold;
+}
+
+
+/******************************
+EMPLOYEE CONTENT
+******************************/
+
+img {
+	height: 250px; 
+	width: 300px;
+	margin-top: 15px;
+	margin-left: 5%;
+	border-radius: 3px;
+	z-index: 1;
+	float: left;
+}
+
+.wonky {
+	margin-bottom: 15px;
+}
+
+.whitebox {
+	background: linear-gradient(to right, rgba(255, 230, 178, 1), rgba(255, 243, 215, 0)), #F6F7F7;
+	margin: 50px 0;
+	height: 250px; 
+	width: 60%;
+	margin-left: 60px;
+	border-radius: 10px;
+	z-index: -1;
+}
+
+.whitebox p {
+	width: 50%;
+	float: right;
+	margin-right: 50px;
+	text-indent: 30px;
+}
+
+/*******
+BOB DOLE
+*******/
+
+.bob {
+	z-index: 1;
+	float: right;
+	margin-right: 400px;
+	margin-bottom: 0;
+	max-width: 40%;
+
+}
+
+.CEO {
+	z-index: 1;
+	float: right;
+	margin-right: 310px;
+	margin-top: 10px;
+	color: rgba(180, 180, 180, 0.7);
+}
+
+/*******
+JOHNATHAN
+*******/
+
+.john {
+	z-index: 1;
+	float: right;
+	margin-right: 310px;
+	margin-bottom: 0;
+}
+
+.mark {
+	z-index: 1;
+	float: right; 
+	margin-right: 375px;
+	margin-top: 10px;
+	color: rgba(180, 180, 180, 0.7);
+}
+
+/********
+JEREMY
+********/
+
+.jer {
+	z-index: 1;
+	float: right;
+	margin-right: 325px;
+	margin-bottom: 0;
+}
+
+.rope {
+	z-index: 1;
+	float: right; 
+	margin-right: 385px;
+	margin-top: 10px;
+	color: rgba(180, 180, 180, 0.7);
+}
+
+/********
+BANKS
+********/
+
+.bank {
+	z-index: 1;
+	float: right;
+	margin-right: 350px;
+	margin-bottom: 0;
+}
+
+.string {
+	z-index: 1;
+	float: right; 
+	margin-right: 390px;
+	margin-top: 10px;
+	color: rgba(180, 180, 180, 0.7);
+}
+
+/******************************
+FOOTER
+******************************/
+
+.foot {
+	background:#F7F6F6;
+	padding-bottom:20px;
+	font-size: 13px;
+	text-align: center;
+	color: grey;
+	padding-top: 5px;
+}
+
