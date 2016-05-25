@@ -67,7 +67,7 @@ img {
 }
 
 .introRope {
-	background:#F7F6F6;
+	/*background:#F7F6F6;*/
 	border:1px solid #F7F6F6;
 	border-radius: 5px;
 	margin-left: 15%;
@@ -77,12 +77,13 @@ img {
 	width: 55%;
 	padding-bottom:20px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+	color: lightblue;
 }
 
 
 .introRope h2 {
 	margin-left: 5%;
-	color: #F7F6F6;
+	color: transparent;
 }
 
 .introRope p {
