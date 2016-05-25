@@ -56,8 +56,8 @@ EMPLOYEE CONTENT
 ******************************/
 
 img {
-	height: 250px; 
-	width: 300px;
+	height: 100%; 
+	width: 33%;
 	margin-top: 15px;
 	margin-left: 5%;
 	border-radius: 3px;
@@ -82,7 +82,7 @@ img {
 .whitebox p {
 	width: 50%;
 	float: right;
-	margin-right: 50px;
+	margin-right: 6%;
 	text-indent: 30px;
 }
 
@@ -93,7 +93,7 @@ BOB DOLE
 .bob {
 	z-index: 1;
 	float: right;
-	margin-right: 400px;
+	margin-right: 46%;
 	margin-bottom: 0;
 	max-width: 40%;
 
@@ -102,7 +102,7 @@ BOB DOLE
 .CEO {
 	z-index: 1;
 	float: right;
-	margin-right: 310px;
+	margin-right: 35.5%;
 	margin-top: 10px;
 	color: rgba(180, 180, 180, 0.7);
 }
@@ -114,14 +114,14 @@ JOHNATHAN
 .john {
 	z-index: 1;
 	float: right;
-	margin-right: 310px;
+	margin-right: 35.5%;
 	margin-bottom: 0;
 }
 
 .mark {
 	z-index: 1;
 	float: right; 
-	margin-right: 375px;
+	margin-right: 43%;
 	margin-top: 10px;
 	color: rgba(180, 180, 180, 0.7);
 }
@@ -133,14 +133,14 @@ JEREMY
 .jer {
 	z-index: 1;
 	float: right;
-	margin-right: 325px;
+	margin-right: 37.5%;
 	margin-bottom: 0;
 }
 
 .rope {
 	z-index: 1;
 	float: right; 
-	margin-right: 385px;
+	margin-right: 44.5%;
 	margin-top: 10px;
 	color: rgba(180, 180, 180, 0.7);
 }
@@ -152,14 +152,14 @@ BANKS
 .bank {
 	z-index: 1;
 	float: right;
-	margin-right: 350px;
+	margin-right: 40.5%;
 	margin-bottom: 0;
 }
 
 .string {
 	z-index: 1;
 	float: right; 
-	margin-right: 390px;
+	margin-right: 45%;
 	margin-top: 10px;
 	color: rgba(180, 180, 180, 0.7);
 }
