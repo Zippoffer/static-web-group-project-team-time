@@ -1,0 +1,9 @@
+.contact {
+	border: 4px double lightblue;
+	margin: 2em;
+	padding-left: 2em;
+	color: lightblue;
+	background-image: url("https://static1.squarespace.com/static/5053ab9fc4aa9308485dacd1/t/50665655e4b0216a2d023eb9/1424950950004/rope.jpg?format=1000w");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
