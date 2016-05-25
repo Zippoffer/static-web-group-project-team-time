@@ -117,6 +117,12 @@ Products
 .card p {	padding-left:2%;
 			padding-right:2%;}
 
+.card h2 {
+	background:linear-gradient(330deg,rgba(255, 243, 215, 1), rgba(255, 243, 215, 0));
+	background-color: #ffdc8b;
+	margin: 1px;
+	padding: 1px 1px 30px 1px;
+}
 
 /******************************
 FOOTER
