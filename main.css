@@ -63,6 +63,7 @@ img {
 	margin-left: 15%;
 	border-radius: 3px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+	margin-top: 3em;
 }
 
 .introRope {
@@ -78,6 +79,7 @@ img {
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
+
 .introRope h2 {
 	margin-left: 5%;
 	color: #F7F6F6;
@@ -85,7 +87,9 @@ img {
 
 .introRope p {
 	margin-left: 3%;
-	text-indent: 30px;
+	text-indent: 0px;
+	padding-left: 3%;
+
 }
 
 
