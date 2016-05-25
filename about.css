@@ -1,0 +1,110 @@
+/******************************
+GENERAL
+******************************/
+
+body {
+	font-family: helvetica;
+	background:#304980;
+}
+
+
+/******************************
+HEADING
+******************************/
+a span {
+	float: left;
+	font-size: 23px;
+}
+
+header {
+	background:#FFF3D7;
+	padding-top:10px;
+}
+
+header a {	
+	text-decoration: none;
+	color: #4f4f4f;
+}
+
+header h1{ 
+	color: #304980;
+	font-size: 40px; 
+}
+
+nav {
+	background: #B29550;
+	font-size: 20px;
+	padding: 25px;
+}
+
+.navBar li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 2%;
+	float: right;
+	background: #B29550;
+}
+
+li a:hover {
+	color: #304980;
+	font-weight: bold;
+}
+
+
+/******************************
+FOOTER
+******************************/
+
+.foot {
+	background:#F7F6F6;
+	padding-bottom:20px;
+	font-size: 13px;
+	text-align: center;
+	color: grey;
+	padding-top: 5px;
+	clear: both;
+}
+
+
+/******************************
+UL STYLING
+******************************/
+
+#braider, .textStuff {
+	display: inline-block;
+	list-style: none;
+  border: 3px dashed #B29550;
+}
+.aboutImages {
+  background-color: #FFF3D7;
+	width: 40%;
+	height: auto;
+	margin: 2% 1% 20px 1%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+  float: left;
+}
+img {
+	width: inherit;
+	height: auto;
+	padding: 5px;
+}
+.textStuff {
+  background-color: #FFF3D7;
+  border-radius: 5px;
+  padding: 20px;
+	margin: 2% 1% 20px 1%;
+  width: 40%;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+  float: left;
+  height: 270px;
+}
+.floatFix {
+	  clear: both;
+	  margin-bottom: 15px;
+}
+.grouping {
+	width: 95%;
+	margin-left: 8%;
+}
+
