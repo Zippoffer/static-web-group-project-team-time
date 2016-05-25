@@ -89,6 +89,17 @@ img {
 }
 
 
+
+/*****************************
+Products
+*****************************/
+.card {		width:20%;
+			display:inline-block;}
+.card img {	width:100%;}
+.cards {	margin-left:10%;
+			margin-right:10%;}
+
+
 /******************************
 FOOTER
 ******************************/
@@ -133,6 +144,9 @@ ANIMATION
 	50%		{top: 0px; left: 50px; color: black;}
 	100%	{top: 0px; left: -20px; color: #F7F6F6;}
 }
+
+
+
 
 
 
