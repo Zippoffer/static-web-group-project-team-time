@@ -1,27 +1,138 @@
+/******************************
+GENERAL
+******************************/
+
+body {
+	font-family: helvetica;
+	background:#304980;
+}
+
+
+/******************************
+HEADING
+******************************/
+a span {
+	float: left;
+	font-size: 23px;
+}
+
+header {
+	background:#FFF3D7;
+	padding-top:10px;
+}
+
+header a {	
+	text-decoration: none;
+	color: #4f4f4f;
+}
+
+header h1{ 
+	color: #304980;
+	font-size: 40px; 
+}
+
+nav {
+	background: #B29550;
+	font-size: 20px;
+	padding: 25px;
+}
+
+.navBar li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 2%;
+	float: right;
+	background: #B29550;
+}
+
+li a:hover {
+	color: #304980;
+	font-weight: bold;
+}
+
+
+/******************************
+HOME PAGE CONTENT
+******************************/
 
 img {
-	height: 500px; 
+	height: 450px; 
 	width: 1000px;
+	margin-top: .5%;
 	margin-right: 15%;
 	margin-left: 15%;
+	border-radius: 3px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+.introRope {
+	background:#F7F6F6;
+	border:1px solid #F7F6F6;
 	border-radius: 5px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 15px;
+	margin-bottom: 150px; 
+	width: 55%;
+	padding-bottom:20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 
-body {		background:#304980;}
-
-.introRope {background:#F7F6F6;
-			border:1px solid #F7F6F6;
-			border-radius: 15px;
-			margin-left: 15%;
-			margin-right: 15%;
-			margin-top: 15px;
-			margin-bottom: 150px; 
-			width: 55%;
-			padding-bottom:20px;
-			box-shadow: 5px 5px 5px black;
+.introRope h2 {
+	margin-left: 5%;
+	color: #F7F6F6;
 }
-.foot {background:#F7F6F6;
-		padding-bottom:20px;}
+
+.introRope p {
+	margin-left: 3%;
+	text-indent: 30px;
+}
+
+
+/******************************
+FOOTER
+******************************/
+
+.foot {
+	background:#F7F6F6;
+	padding-bottom:20px;
+	font-size: 13px;
+	text-align: center;
+	color: grey;
+	padding-top: 5px;
+}
+
+
+/******************************
+ANIMATION
+******************************/
+
+.letterRaise:hover {
+	position: relative;
+	animation-name: letterRaise;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes letterRaise {
+	0%		{text-shadow: 0px 0px lightgrey;}
+	100%	{text-shadow: 5px 5px lightgrey;}
+}
+
+.introRope h2:hover {
+	position: relative;
+	animation-name: ropeAppear;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes ropeAppear {
+	0%		{top: 0px; left: -20px; color: #F7F6F6;}
+	50%		{top: 0px; left: 50px; color: black;}
+	100%	{top: 0px; left: -20px; color: #F7F6F6;}
+}
 
 
 
@@ -42,22 +153,4 @@ body {		background:#304980;}
 
 
 
-
-
-
-
-header {background:#FFF3D7;
-		padding-top:10px;}
-header a {	text-decoration:none;
-			color:#FFE4A5;}
-header h1{ color:#304980; }
-.navBar li {list-style-type:none;
-		display: inline-block;
-		margin-right:2%;
-		float:right;
-		background:#B29550;
-	}
-nav 			{width:100%;
-				background:#B29550;
-				padding:20px;}
 
