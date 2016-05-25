@@ -17,8 +17,8 @@ a span {
 }
 
 header {
-	background:#FFF3D7;
-	padding-top:10px;
+	background:linear-gradient(to right,rgba(255, 243, 215, 1), rgba(255, 243, 215, 0)), url(hpr.jpg);
+	padding-top:20px;
 }
 
 header a {	
