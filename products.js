@@ -47,7 +47,7 @@ for(i=0; i< productArray.length; i++){
 	var card=document.getElementById("product"+i);
 	console.log(card);
 	card.innerHTML = "<h2>" + productArray[i].name + "</h2>" + "<p>" + productArray[i].description + "</p>"
-	+ "<img src='" + productArray[i].url + "'" + "<p> Price: " + productArray[i].price+ "</p>";
+	+ "<img src='" + productArray[i].url + "'" + "<p> Price: " + productArray[i].price+ "</p>" ;
 }
 
 
